@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+header {
+    background-color: black;
+    height: fit-content;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #07EEDB;
+}
+
+.logo-calle {
+    width: 100px;
+}
+
+.top-bar {
+    text-align: center;
+}
+
+.menu-left {
+    list-style: none;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translateY(-50%);
+}
+
+.menu-left li {
+    float: left;
+    margin-right: 100px;
+}
+
+.menu-right {
+    list-style: none;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translateY(-50%);
+}
+
+.menu-right li {
+    float: left;
+    margin-left: 100px;
+}
+
+.section-home {
+    background-image: url(./images/mulheres-felizes-de-alto-angulo-com-sangria.jpg);
+    height: 700px;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+}
+
+.title h1 {
+    font-size: 5em;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.title h3 {
+    font-weight: 500;
+}
+
+.section-eventos {
+    background-color: #07EEDB;
+    text-align: center;
+    height: 770px;
+}
+
+.section-eventos h1 {
+    padding: 50px 0;
+    color: black;
+    font-size: 3em;
+}
+
+.section-eventos img {
+    height: 400px;
+    margin: 0 20px;
+}
+
+.section-orcamento {
+    height: 700px;
+    background-color: black;
+    position: relative;
+    color: white;
+}
+
+.section-orcamento h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.form1 {
+    max-width: 300px;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-105%, -50%);
+}
+
+.form2 {
+    max-width: 300px;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50.85%;
+    left: 50%;
+    transform: translate(5%, -50%);
+}
+
+input,
+select,
+textarea {
+    width: 300px;
+    margin-bottom: 30px;
+    border: 1px solid #07EEDB;
+    resize: none;
+    padding: 5px;
+    background-color: rgb(232, 240, 254);
+}
+
+textarea {
+    height: 39px;
+}
+
+input[type="submit"] {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #07EEDB;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(37, 234, 214, 0.75);
+    cursor: pointer;
+}
+
+.section-cardapio {
+    height: 770px;
+    background-color: #07EEDB;
+    position: relative;
+}
+
+.section-cardapio img {
+    height: 250px;
+    margin-top: 15px;
+}
+
+.section-cardapio img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
+  
+
+.title-vertical-left {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 70px;
+    font-size: 3em;
+    font-weight: bold;
+
+}
+
+.title-vertical-right {
+    list-style: none;
+    text-align: center;
+    margin: 20px 70px;
+    float: right;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.lillet {
+    position: absolute;
+    left: 200px;
+}
+
+.sem {
+    position: absolute;
+    left: 600px;
+}
+
+.caipirinha {
+    position: absolute;
+    left: 1000px;
+}
+
+.ajuste {
+    list-style: none;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+.vl1 {
+    border: 3px solid black;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 522px;
+    transform: translateY(-50%);
+}
+
+.vl2 {
+    border: 3px solid black;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 922px;
+    transform: translateY(-50%);
+}
+
+.section-sobre {
+    background-color: black;
+    height: 700px;
+    color: white;
+    position: relative;
+}
+
+.section-sobre h1 {
+    text-align: center;
+    font-size: 3em;
+    padding: 20px;
+}
+
+.section-sobre img {
+    height: 400px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-110%, -50%);
+}
+
+.description {
+    max-width: 500px;
+    font-size: 1.5em;
+    position: absolute;
+    top: 55.5%;
+    left: 50%;
+    transform: translate(10%, -50%);
+}
+
+.section-contato {
+    background-color: #07EEDB;
+    padding: 40px;
+    position: relative;
+}
+
+.logo-wpp {
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.wpp {
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-email {
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+}
+
+.email {
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-media {
+    position: absolute;
+    top: 50%;
+    left: 75.5%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-media {
+    position: absolute;
+    top: 50%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+}
+
+.logo-media img {
+    margin-left: 15px;
+}
+
+.section-contato a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.section-contato .underline:hover {
+    text-decoration: underline;
+}
+
+.section-home,
+.section-eventos,
+.section-orcamento,
+.section-cardapio,
+.section-sobre,
+.section-contato {
+    padding-top: 80px;
+    margin-top: -80px;
+}
